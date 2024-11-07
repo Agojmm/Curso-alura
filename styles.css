@@ -1,0 +1,54 @@
+body {
+ color: white;
+ background: black;
+ margin: 0px
+}
+
+
+header {
+    border-bottom: solid 2px #515E3F;
+    padding: 20px;
+    font-size: 32px;
+    color:#515E3F
+}
+
+
+.principal {
+    background: #22516e;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nome-video {
+    margin-right: 5%
+}
+img{
+    height: 150px
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px
+}
+
+.mais-videos {
+padding-left: 20px;
+padding-right:20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+opacity: 1.0;
+border: 1px solid rgb(67, 136, 67)
+}
+
+.mais-videos h2 {
+color:#515E3F;
+}
